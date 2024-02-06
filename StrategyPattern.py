@@ -19,7 +19,7 @@ class PaymentWay:
         self.payment_strategy = payment_strategy
 
     def make_payment(self, amount):
-        self.payment_stragegy.pay(amount)
+        self.payment_strategy.pay(amount)
 
 
 # Client code
